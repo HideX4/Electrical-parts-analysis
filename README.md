@@ -19,7 +19,7 @@ This project consists of a **Flutter** frontend and a **Flask** backend for proj
 1. Clone the repository:
    ```
    bash
-   git clone https://github.com/HideX4/sentiment-analysis-flutter-backend-frontend.git
+   git clone https://github.com/HideX4/electrical-parts-analysis-flutter-backend-frontend.git
    cd Backend
    ```
 
@@ -41,7 +41,7 @@ This project consists of a **Flutter** frontend and a **Flask** backend for proj
 
 1. Clone the repository:
    ```
-   git clone https://github.com/HideX4/sentiment-analysis-flutter-backend-frontend.git
+   git clone https://github.com/HideX4/electrical-parts-analysis-flutter-backend-frontend.git
    cd Frontend
    ```
 
