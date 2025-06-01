@@ -2,6 +2,25 @@
 
 This project consists of a **Flutter** frontend and a **Flask** backend for project. The backend processes requests and returns sentiment predictions (0=transistor, 1=resistor, or 2=capacitor).
 
+### 🧩 My Contributions
+
+I was responsible for the complete development lifecycle of the **Electrical Components Identification App**, covering both machine learning and application development. My work included:
+
+- **Data Acquisition & Preparation:**  
+  - Collected and labeled image data for electrical components.  
+  - Handled data cleaning, augmentation, and normalization to improve model robustness and generalization.
+
+- **Model Development:**  
+  - Trained image classification models (CNN-based architecture) to identify different components.  
+  - Performed model evaluation using accuracy, confusion matrices, and cross-validation to optimize performance.
+
+- **Application Development:**  
+  - Designed and built a user-friendly interface for the app.
+  - Integrated the trained model into the application for real-time predictions.
+
+- **Deployment:**  
+  - Packaged and deployed the app to a production-ready environment.  
+  - Ensured smooth end-to-end functionality, from image upload to component prediction.
 ---
 
 ## Project Structure
