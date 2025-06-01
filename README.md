@@ -14,12 +14,11 @@ This project consists of a **Flutter** frontend and a **Flask** backend for proj
 
 ## Backend (Flask)
 
-### Installation
+### Option 1: Run Locally (Without Docker)
 
 1. Clone the repository:
    ```
-   bash
-   git clone https://github.com/HideX4/electrical-parts-analysis-flutter-backend-frontend.git
+   git clone https://github.com/HideX4/Electrical-parts-analysis.git
    cd Backend
    ```
 
@@ -28,9 +27,27 @@ This project consists of a **Flutter** frontend and a **Flask** backend for proj
    pip install -r requirements.txt
    ```
 
-3. Run the Flask app:
+3. Run the Flask application:
    ```
    python server.py
+   ```
+
+### Option 2: Run With Docker
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/HideX4/Electrical-parts-analysis.git
+   cd Backend
+   ```
+
+2. Build the Docker image:
+   ```
+   docker build -t electrical-backend .
+   ```
+
+3. Run the Docker container:
+   ```
+   docker run -p 8000:8000 electrical-backend
    ```
 
 ---
@@ -41,7 +58,7 @@ This project consists of a **Flutter** frontend and a **Flask** backend for proj
 
 1. Clone the repository:
    ```
-   git clone https://github.com/HideX4/electrical-parts-analysis-flutter-backend-frontend.git
+   git clone https://github.com/HideX4/Electrical-parts-analysis.git
    cd Frontend
    ```
 
